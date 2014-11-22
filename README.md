@@ -136,3 +136,6 @@ The final dataset contains the columns:
 - Frequency_BodyGyroscopeMagnitude_std
 - Frequency_BodyGyroscopeJerkMagnitude_mean
 - Frequency_BodyGyroscopeJerkMagnitude_std
+
+#### Sample Output
+A sample output from the script can be found in `data_all_20141522_1515.txt` and `data_all_averages_ 20141522_1515.txt`
