@@ -23,6 +23,49 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+- Time_BodyAcceleration-XYZ
+- Time_GravityAcceleration-XYZ
+- Time_BodyAccelerationJerk-XYZ
+- Time_BodyGyroscope-XYZ
+- Time_BodyGyroscopeJerk-XYZ
+- Time_BodyAccelerationMagnitude
+- Time_GravityAccelerationMagnitude
+- Time_BodyAccelerationJerkMagnitude
+- Time_BodyGyroscopeMagnitude
+- Time_BodyGyroscopeJerkMagnitude
+- Frequency_BodyAcceleration-XYZ
+- Frequency_BodyAccelerationJerk-XYZ
+- Frequency_BodyGyroscope-XYZ
+- Frequency_BodyAccelerationMagnitude
+- Frequency_BodyAccelerationJerkMagnitude
+- Frequency_BodyGyroscopeMagnitude
+- Frequency_BodyGyroscopeJerkMagnitude
+
+The set of variables that were estimated from these signals are: 
+- mean(): Mean value
+- std(): Standard deviation
+- mad(): Median absolute deviation 
+- max(): Largest value in array
+- min(): Smallest value in array
+- sma(): Signal Magnitudenitude area
+- energy(): Energy measure. Sum of the squares divided by the number of values. 
+- iqr(): Interquartile range 
+- entropy(): Signal entropy
+- arCoeff(): Autorregresion coefficients with Burg order equal to 4
+- correlation(): correlation coefficient between two signals
+- maxInds(): index of the frequency component with largest Magnitudenitude
+- meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+- skewness(): skewness of the frequency domain signal 
+- kurtosis(): kurtosis of the frequency domain signal 
+- bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
+- angle(): Angle between to vectors.
+
+Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
+- gravityMean
+- Time_BodyAccelerationMean
+- Time_BodyAccelerationJerkMean
+- Time_BodyGyroscopeMean
+- Time_BodyGyroscopeJerkMean
 
 *This column description has been taken from the Readme file of the original dataset of the University of Genoa.*
 
